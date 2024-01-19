@@ -33,9 +33,9 @@ export default function Seleccion() {
           <form style={{width:'100%', display:'flex', justifyContent:'center' , backgroundColor: '#00000070' }} onSubmit={handleSubmit}>
           <div style={{display:'flex', flexDirection:'column', padding:'2rem', width:'80%', gap:'6px'}}>
         <label style={{color:'white', fontWeight:'bold'}}>Ingrese una categoria a evaluar</label>
-        <input type='text' name='categoria'></input>
+        <input autoComplete='off' type='text' name='categoria'></input>
         <label style={{color:'white', fontWeight:'bold'}}>Ingrese un Jugador</label>
-        <input type='text' name='categoria'></input>
+        <input autoComplete='off' type='text' name='categoria'></input>
         <button type='submit'>Continuar</button>
                 </div>
           

@@ -43,7 +43,7 @@ export default function Cancha() {
   })
 
   const data = {
-    labels: ['Internos', 'Externos', 'Circulo Personal'],
+    labels: ['Internos', 'Externos', 'Circulo Central'],
     datasets:[
     {
         data: [(promedioPorZona.internos == 1) ? '0':promedioPorZona.internos, (promedioPorZona.externos < 1)?'0': promedioPorZona.externos,(promedioPorZona.circuloCentral < 1)?'0': promedioPorZona.circuloCentral],
