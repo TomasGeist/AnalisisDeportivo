@@ -1,0 +1,42 @@
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #ff450070;
+  min-width: 400px
+}
+
+
+.body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.filasCancha > div {
+  padding: 1rem;
+
+}
+
+#root .filasCancha{
+  margin:0px;
+}
+
+.formLista input{
+  text-align: center;
+}
+
+#root textarea{
+  resize: none;
+  max-height: 200px;
+}
+
+.modificacionTitulo{
+  font-size: 5rem
+}
+
+@media (max-width: 491px) {
+#root .modificacionTitulo{
+    font-size: 3rem;
+}
+}
+
